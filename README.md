@@ -47,8 +47,8 @@ cd autonomous-research-agent
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # macOS/Linux
-# venv\Scripts\activate   # Windows
+source venv/bin/activate  # for macOS/Linux
+venv\Scripts\activate   # for Windows
 ```
 
 ### 3. Install dependencies
@@ -77,7 +77,7 @@ You can get a free API key at [openrouter.ai](https://openrouter.ai).
 ### Command-line argument
 
 ```bash
-python main.py "Impact of AI in Healthcare"
+python main.py "How to Bake a Cake"
 ```
 
 ### Interactive mode
@@ -125,6 +125,3 @@ The report generator then transforms the raw output into a structured Markdown d
 - "Blockchain Technology in Finance"
 - "Cybersecurity Trends 2025"
 
-## License
-
-MIT
